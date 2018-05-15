@@ -1,5 +1,5 @@
 # Cpp
-some C++ console projects
+some C++ console projects in corresponding repository branches
 
 Expression calculation: stacks
 C++ Army: inheritance 
