@@ -4,8 +4,6 @@
 
 using namespace std;
 
-//int ammo;
-
 Weapon::Weapon()
 {
     //ctor
