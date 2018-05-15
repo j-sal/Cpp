@@ -18,3 +18,23 @@ Gun::~Gun()
 {
     //dtor
 }
+
+string Gun::model()
+{
+    return this->gModel; 
+}
+
+int Gun::countAmmunition()
+{
+    return this->ammo;
+}
+
+void Gun::fire()
+{
+    if(ammo>0)
+    {
+        cout << "Bang with my " << gModel << endl;
+        this->ammo--;
+    }else
+    cout << "\n" << endl;
+}
