@@ -14,11 +14,21 @@ Weapon::~Weapon()
     //dtor
 }
 
-virtual string Weapon::model() = 0;
+string Weapon::model()
+{
+    return model();
+}
 
-virtual int Weapon::countAmmunition() = 0;
+int Weapon::countAmmunition()
+{
+    return countAmmunition();
+}
 
-virtual void Weapon::fire() = 0;
+void Weapon::fire()
+{
+
+
+}
 
 
 
