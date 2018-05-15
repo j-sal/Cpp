@@ -37,20 +37,22 @@ virtual void Soldier::identification()
     cout << "<" << rank << "> <soldier_" << name << "> Sir!\n" <<endl;
 }
 
-virtual void Soldier::setLeft(Weapon *)
+void Soldier::setLeft(Weapon * left)
 {
-    this->left=left;
+    Soldier::left=left;
 }
-virtual void Soldier::fireLeft()
+void Soldier::fireLeft()
 {
-    Weapon::fire();
+    left->fire();
+
 }
 
-virtual void Soldier::setRight(Weapon *)
+void Soldier::setRight(Weapon *right)
 {
     this->right=right;
 }
-virtual void Soldier::fireRight()
+
+void Soldier::fireRight()
 {
-    Weapon::fire();
+    right->fire();
 }
