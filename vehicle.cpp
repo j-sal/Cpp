@@ -5,11 +5,12 @@
 
 using namespace std;
 
-private std::vector<Soldier*>;
+vector <Soldier*> s;
+
+Soldier* sold;
 
 Vehicle::Vehicle(vector<Soldier*>)
 {
-    //?this->vector<Soldier*>=vector<Soldier*>;
     vector<Soldier*>=vector<Soldier*>;
 }
 
@@ -20,19 +21,22 @@ Vehicle::~Vehicle()
 
 int Vehicle::countSoldier()
 {
-    //?
+    return s.size();
+    cout << s.size() << endl;
+}
+
+void Vehicle::action()
+{
 
 }
 
-virtual void Vehicle::action() ;
-
 void Vehicle::addSoldier(Soldier *)
 {
-    vector<Soldier*>++;
+    s.push_back(sold);
 }
 
 std::vector<Soldier*> Vehicle::unload()
 {
-    return vector<Soldier*>;
-    vector<Soldier*> =0;
+    return s;
+    s.resize(0);
 }
