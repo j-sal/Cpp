@@ -13,8 +13,7 @@ Weapon* right;
 
 Soldier::Soldier()
 {
-    /*this->name=name;
-    this->rank=rank;*/
+
 }
 
 Soldier::Soldier(string name, string rank)
@@ -45,7 +44,6 @@ virtual void Soldier::setLeft(Weapon *)
 virtual void Soldier::fireLeft()
 {
     Weapon::fire();
-    //ammo--;
 }
 
 virtual void Soldier::setRight(Weapon *)
