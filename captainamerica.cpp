@@ -7,8 +7,7 @@ using namespace std;
 
 CaptainAmerica::CaptainAmerica()
 {
-    /*this->rank="Captain";
-    this->name="CaptainMurica";*/
+
 }
 
 CaptainAmerica::~CaptainAmerica()
